@@ -1,0 +1,139 @@
+All things standard
+is now:
+A Different Index
+
+- contacted vinay
+
+- make list of people to invite for contribution
+	- AEN?
+	- Andy Croll
+
+- make of people to be on the site
+	- Jussi
+	- AEN
+	- Andy Croll
+	- Partners Andy Croll
+
+- make list of companies to be on site
+	- COMA
+	- Foound
+	- Wego
+	====
+	10AM Communications Pte Ltd
+	Four Media
+	mplified
+	Notion Age
+	OnEvent
+	Osmosis Interactive
+	Sabrefox Pte Ltd
+	thepixelage Pte Ltd
+
+
+- make list of featured comps / persons
+	- gothere
+	- Eden: Anja Cronenberg
+
+MAIN:
+
+- sites / media? (site, iphone app etc?)
+	RECORD
+		- site name
+		- screenshot
+		CREDITS
+			- company
+			- client
+			- designer(s)
+			- coders?
+			- release year /date
+			- country
+			- techniques? html etc
+			- tags
+		BACKGROUND
+			- description of the site?
+			- backg source
+		ASDIDE
+			related links
+			related sites?
+		RECORD INFO -META
+			Last edited by: 
+			date
+- companies
+	RECORD
+		-name
+		- logo / ss site
+		- url
+		- offices: city name, country
+		- people / employees?
+		- partners? founders / ceo's
+
+		BACKGROUND
+			- description of the company
+			- backg source
+		ASDIDE
+			related links
+			related sites?
+		RECORD INFO -META
+			Last edited by: 
+			date
+		
+- people
+	RECORD	
+	- name
+	- photo
+	*credits
+		- website
+	*background
+		- background source
+	ASDIDE
+	related links
+	related sites?
+	RECORD INFO -META
+		Last edited by: 
+		date
+
+
+- network?
+- map? based on number of employees?, number of sites?, clients?
+- reviews
+- lists?
+- events
+- links to articles
+
+- best practices
+- books
+
+Site 
+	-> company -> profile 
+			-> sites
+			-> info : num of people etc etc
+	-> client
+
+	-> thumb
+	-> url
+	-> short description
+	-> live since date
+	-> dev time?
+	-> dev tech? (html, flash?)
+
+
+- NL
+	- eden
+	- lost boys
+	- fabrique
+	- q42
+	- 
+
+- USA
+	- Happy Cog
+	- SimpleBits
+	- 
+	- Jina Bolton
+	- 
+
+- Singapore
+	- Qais
+	- Pebbleroad?
+	- Convertium?
+	- Coma
+	- Gothere.sg
+	- Andy Croll -> 
