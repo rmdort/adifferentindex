@@ -1,0 +1,3 @@
+Error: Failed executing: make install 
+
+trying to install opting for html5 boilerplate build script
