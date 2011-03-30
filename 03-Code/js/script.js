@@ -2,6 +2,9 @@
 
 */
 
+/* ::Enable Javascript-enabled stylesheet */
+var head_css = $('<link rel="stylesheet" href="css/js-enabled.css" type="text/css" media="screen" />').appendTo($('head')[0]);
+
 window.onload = load;
 
 function load()
@@ -9,6 +12,7 @@ function load()
 // alert("load event detected!");
  FnImageFix.init();
  FnGrid.init();
+ FnSubGrid.init()
 }
 
 /* ::Grid Functions */
@@ -70,6 +74,64 @@ FnImageFix = {
 	
 } // end function
 
+/* ::Grid Functions */
+FnSubGrid = {
+	init:function() {
+		// only if homepage
+			var elemExists = $('#home').length;
+			if (elemExists > 0) {
+				
+				// click event for column number
+				$('.options-columns a').click(function(){
+					//set classes
+									
+					// get href
+					var numcol = $(this).attr('href');
+					//alert(numcol);
+					
+					switch (numcol) {
+						case '#1': 
+							// remove classes
+							$('#main').removeClass('subgrid');
+							$('#main').removeClass('columns-2');
+							$('#main').removeClass('columns-3');							
+
+					        $('aside[role="complementary"]').fadeIn('fast');					        
+					    break; //end
+					    case '#2': 
+					    	// set more classes
+					    	$('#main').addClass('subgrid');
+							$('#main').removeClass('columns-3');					    	
+					    	$('#main').addClass('columns-2');
+					        
+					        $('aside[role="complementary"]').fadeIn('fast');
+					        
+					    break; //end
+					    case '#3': 
+					    	// set more classes
+					    	
+					    	//$('aside[role="complementary"]').addClass('hidden');
+					    	$('aside[role="complementary"]').fadeOut('slow', function(){
+					    		$('#main').addClass('subgrid');
+					    		$('#main').removeClass('columns-2');					    	
+					    		$('#main').addClass('columns-3');					        
+					    	
+					    	});
+					    	
+					    	
+					    	
+					    	
+					    	
+					    break; //end
+					} // end switch   
+					return false;
+				}); // end click
+								
+			} else {
+				return false;
+			}
+	} // end init
+} // end function
 
 
 

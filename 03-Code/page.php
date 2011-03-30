@@ -24,40 +24,22 @@
 
 
   <!-- CSS: implied media="all" -->
-  <link rel="stylesheet" href="css/style.css?v=2">
-	<link rel="stylesheet/less" href="css/adifferentindex.css">
+  <?php include('inc/styles.inc'); ?>
 
   <!-- Uncomment if you are specifically targeting less enabled mobile browsers
   <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
 
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-  <script src="js/libs/modernizr-1.7.min.js"></script>
-	<script src="js/libs/less-1.0.41.min.js"></script>
+  <?php include('inc/scripts_head.inc'); ?>
 </head>
 
 <body>
 <div id="outer">
   <div id="container">
-    <header>
-    	<a href="./" id="logo" >ADI</a>
-    	<h1>A Different Index</h1>
-    	<div class="search-box">Search</div>
-    </header>
+    <?php include('inc/header.inc'); ?>
     <section class="grid">
     	<aside role="navigation">
-    		<nav id="main-navigation">
-    			<ul>
-    				<li><a href="#" title="">Home</a></li>
-    				<li><a href="#" title="">Browse</a></li>
-    				<li><a href="#" title="">Contribute</a></li>
-    				<li><a href="#" title="">About</a></li>
-    			</ul>
-    		</nav>
-    		<nav id="secondairy-navigation">
-    			<ul>
-    				<li><a class="toggle" href="#" title="Turn Grid on">Grid</a><span> is off</span></li>
-    			</ul>
-    		</nav>
+    		<?php include('inc/navigations.inc'); ?>
     	</aside>
 		<div id="main" role="main">
 			<h1>Edenspiekermann</h1>
@@ -133,38 +115,12 @@
 			</ul>
 		</aside>
     </section>
-    <footer>
-		<p>&copy; 2011 – A Different Index is an experimental project by Vinay M <span class="amp">&amp;</span> Nils Hendriks</p>
-    </footer>
+    <?php include('inc/footer.inc'); ?>
   </div> <!--! end of #container -->
 </div>
 
   <!-- JavaScript at the bottom for fast page loading -->
-
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-  <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
-
-
-  <!-- scripts concatenated and minified via ant build script-->
-  <script src="js/plugins.js"></script>
-  <script src="js/script.js"></script>
-  <!-- end scripts-->
-
-
-  <!--[if lt IE 7 ]>
-    <script src="js/libs/dd_belatedpng.js"></script>
-    <script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
-  <![endif]-->
-
-
-  <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
-  <!--<script>
-    var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
-    s.parentNode.insertBefore(g,s)}(document,"script"));
-  </script>-->
+<?php include('inc/scripts.inc'); ?>
 
 </body>
 </html>

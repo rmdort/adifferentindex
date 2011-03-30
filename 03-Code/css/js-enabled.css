@@ -1,0 +1,32 @@
+.subgrid {
+	
+}
+.grid #main.subgrid.columns-2 {
+/*	overflow: hidden;
+	clear: both;*/
+	margin-right: 0;
+	width: 51.06%;
+}
+.grid #main.subgrid.columns-3 {
+/*	overflow: hidden;
+	clear: both;*/
+	margin-right: 0;
+	width: 74.46%;	
+}
+.subgrid.columns-2 article {
+	width: 45%;
+	margin-right: 20px;
+	float: left;
+	min-height: 144px;
+	max-height: 144px;
+}
+.subgrid.columns-3 article {
+	width: 31.42%;
+	margin-right: 20px;
+	float: left;
+	min-height: 144px;
+	max-height: 144px;
+}
+.subgrid.columns-3 article:nth-of-type(3n+3) {
+	margin-right: 0;
+}
