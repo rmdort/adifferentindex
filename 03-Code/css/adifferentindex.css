@@ -97,11 +97,11 @@ a:hover { color: darken(@brandcolor, 10%); }
  
  @font-face {
      font-family: 'ClarendonFSBold';
-     src: url('http://cdn.nilshendriks.com/fonts/Clarendon-Bold-webfont.eot');
-     src: url('http://cdn.nilshendriks.com/fonts/Clarendon-Bold-webfont.eot?iefix') format('eot'),
-          url('http://cdn.nilshendriks.com/fonts/Clarendon-Bold-webfont.woff') format('woff'),
-          url('http://cdn.nilshendriks.com/fonts/Clarendon-Bold-webfont.ttf') format('truetype'),
-          url('http://cdn.nilshendriks.com/fonts/Clarendon-Bold-webfont.svg#webfont') format('svg');
+     src: url('../presentation/fonts/Clarendon-Bold-webfont.eot');
+     src: url('../presentation/fonts/Clarendon-Bold-webfont.eot?iefix') format('eot'),
+          url('../presentation/fonts/Clarendon-Bold-webfont.woff') format('woff'),
+          url('../presentation/fonts/Clarendon-Bold-webfont.ttf') format('truetype'),
+          url('../presentation/fonts/Clarendon-Bold-webfont.svg#webfont') format('svg');
      font-weight: normal;
      font-style: normal;
  
@@ -157,7 +157,13 @@ a:hover { color: darken(@brandcolor, 10%); }
  header .search-box {
  	position: absolute;
  	right: 0;
- 	top: 0;
+ 	top: 28px;
+ 	label {
+ 		visibility: hidden;
+ 	}
+ 	input[type="submit"] {
+ 		visibility: hidden;
+ 	}
  }
  .grid {
  	overflow: hidden;
@@ -272,3 +278,12 @@ a:hover { color: darken(@brandcolor, 10%); }
  		background: transparent url(../img/company16.png) 100% 100% no-repeat;
  	}
  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

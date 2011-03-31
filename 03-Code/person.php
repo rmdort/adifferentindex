@@ -73,7 +73,7 @@
 						<th>Projects</th>
 						<td>
 							<ul>
-								<li><a class="external" href="https://www.icscards.nl/" title="">ICS</a> – <a href="page.html" title="to this company's profile page">Edenspiekermann</a></li>
+								<li><a class="external" href="https://www.icscards.nl/" title="">ICS</a> – <a href="page.php" title="to this company's profile page">Edenspiekermann</a></li>
 								<li><a class="external" href="http://www.noord-holland.nl/" title="">PNH</a> – Edenspiekermann</li>
 								<li>ABNAMRO – Edenspiekermann</li>								
 								<li><a class="external" href="http://www.contactsingapore.sg/" title="">Contact SG</a> – Convertium</li>
@@ -103,13 +103,26 @@
 			<p>Years of self teaching and working for several companies eventually lead to landing a position at Eden, now Edenspiekermann before moving to Singapore in 2007.</p>
 		</div>
 		<aside role="complementary">
-			<p>A Different Index tries to collect data about companies and people who build websites. Focused on Singapore and The Netherlands for now.</p>
-			<a href="#" title="">About ADI</a>
-			<h2>Contributors</h2>
-			<ul>
-				<li><a href="#" title="">Vinay M</a></li>
-				<li><a href="person.html" title="">Nils Hendriks</a></li>
-			</ul>
+			<div id="hcard-Nils-Hendriks" class="vcard">
+			 <span class="fn">Nils Hendriks</span>
+			 <div class="org">nilshendriks.com</div>
+			 <a class="email" href="mailto:nils@nilshendriks.com">nils@nilshendriks.com</a>
+			 <div class="adr">
+			  <div class="street-address">205 River Valley Road</div>
+			  <span class="locality">Singapore</span>
+			, 
+			  <span class="postal-code">238274</span>
+			
+			  <span class="country-name">Singapore</span>
+			
+			 </div>
+			 <div class="tel">+65 8113 4709</div>
+			 <a class="url" href="aim:goim?screenname=aimsomename">AIM</a>
+			 <a class="url" href="ymsgr:sendIM?yim">YIM</a>
+			 <a class="url" href="xmpp:jabber">Jabber</a>
+			<div class="tags"><a href="http://kitchen.technorati.com/contacts/tag/developer">developer</a> </div>
+			</div>
+			<a class="download" href="#">Download vCard</a>
 		</aside>
     </section>
     <?php include('inc/footer.inc'); ?>

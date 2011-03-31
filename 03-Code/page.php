@@ -106,13 +106,20 @@
 			Posted by Nils Hendriks </p>-->
 		</div>
 		<aside role="complementary">
-			<p>A Different Index tries to collect data about companies and people who build websites. Focused on Singapore and The Netherlands for now.</p>
-			<a href="#" title="">About ADI</a>
-			<h2>Contributors</h2>
-			<ul>
-				<li><a href="#" title="">Vinay M</a></li>
-				<li><a href="person.html" title="">Nils Hendriks</a></li>
-			</ul>
+			<div id="hcard-Edenspiekermann" class="vcard">
+			 <div class="org">Edenspiekermann</div>
+<!--			 <a class="email" href="mailto:info@edenspiekermann.com">edenspiekermann</a>-->
+			 <div class="adr">
+			  <div class="street-address">Barentszplein 7 II</div>
+			  <span class="locality">Amsterdam</span>
+			, 
+			  <span class="postal-code">1013 NJ</span>
+			  <span class="country-name">The Netherlands</span>			
+			 </div>
+			 <div class="tel">+31 20 550 6300</div>
+			 <div class="fax">+31 20 550 6399</div>
+			<div class="tags"><a href="http://kitchen.technorati.com/contacts/tag/company">company</a> </div>
+			</div>
 		</aside>
     </section>
     <?php include('inc/footer.inc'); ?>

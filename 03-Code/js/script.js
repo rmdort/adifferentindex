@@ -11,9 +11,36 @@ function load()
 {
 // alert("load event detected!");
  FnImageFix.init();
- FnGrid.init();
+ FnGridSlider.init();
  FnSubGrid.init()
 }
+
+/* ::Grid Functions */
+FnGridSlider = {
+	init:function() {
+	
+	
+	$('#container').css('background', 'rgba(255,255,255, 1)');
+	
+		$("#slider").slider({
+
+			     slide: function(event, ui) {
+			     	//alert(ui.value);
+			     	var alphaVal = 1 - ((ui.value)/100);
+			     	// set thumb img to ui/value
+			     	$('#container').css('background', 'rgba(255,255,255, '+alphaVal+')');
+			     	$('#secondairy-navigation span').text(ui.value + '%');
+			      }
+			    
+			    });
+			    
+			      $('#slider').slider('value', 1);			    
+			    
+			  
+	} // end init
+} // end function
+
+
 
 /* ::Grid Functions */
 FnGrid = {
@@ -117,11 +144,6 @@ FnSubGrid = {
 					    		$('#main').addClass('columns-3');					        
 					    	
 					    	});
-					    	
-					    	
-					    	
-					    	
-					    	
 					    break; //end
 					} // end switch   
 					return false;

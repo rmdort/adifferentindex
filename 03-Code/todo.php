@@ -57,7 +57,7 @@ ul {
 			<ul>
 				<li>Home page layout
 					<ul>
-						<li>Home page content blocks</li>
+						<li class="done">Home page content blocks</li>
 						<li>possibility for feature blocks</li>
 						<li>the link should be the whole article block, not just its content</li>
 						<li>column picker script improvements
@@ -72,8 +72,10 @@ ul {
 				</li>
 				<li>Search
 					<ul>
-						<li>Markup</li>
-						<li>CSS</li>
+						<li class="done">Markup</li>
+						<li class="done">CSS</li>
+						<li>JS: add function on focus to show/hide submit button</li>
+						<li>Add id's and names to fields and buttons</li>
 						<li>PHP/JS google search API</li>
 						<li>Advanced search page</li>
 						<li>Results page</li>
@@ -90,10 +92,33 @@ ul {
 				<li>OO javascript</li>
 				<li>Grid slider
 					<ul>
+						<li class="done">Basics</li>
+						<li>Control location? somewhere else?</li>
 						<li>with cookie</li>
 					</ul>
 				</li>
-				<li>Colophon page - see humans.txt</li>
+				<li>Colophon page
+					<ul>
+						<li>see humans.txt</li>
+						<li>Used techniques
+							<ul>
+								<li>HTML5 Boilerplate</li>
+								<li>Garber-Irish thingy</li>
+								<li>jQuery
+									<ul>
+										<li>Slider plugin</li>
+									</ul>
+								</li>
+								<li>Web Fonts
+									<ul>
+										<li>Crimson</li>
+										<li>ClarendonFS</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
 				<li class="done">Convert to PHP</li>
 				<li>Backend
 					<ul>
