@@ -16,6 +16,10 @@
 ::selection { background:@brandcolor; color:#fff; text-shadow: none; }
 
 a, a:active, a:visited { color: #5d9112; text-decoration: none; }
+a.external {
+	background: url(../img/external_link.gif) 100% 0 no-repeat;
+	padding-right: 20px;
+}
 a.external, a.external:active, a.external:visited { text-decoration: underline; }
 a:hover { color: darken(@brandcolor, 10%); }
  
@@ -230,6 +234,9 @@ a:hover { color: darken(@brandcolor, 10%); }
  	border-bottom: 1px dashed #ccc;
  	font-weight: normal;
  }
+ #main img {
+ 	max-width: 100%;
+ }
  #main p {
  	margin-bottom: 24px;
  }
@@ -276,6 +283,9 @@ a:hover { color: darken(@brandcolor, 10%); }
  	}
  	&.company {
  		background: transparent url(../img/company16.png) 100% 100% no-repeat;
+ 	}
+ 	&.site {
+ 		background: transparent url(../img/link_icon.jpg) 100% 100% no-repeat;
  	}
  }
  

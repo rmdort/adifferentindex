@@ -11,7 +11,7 @@
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Home</title>
+  <title>Site template</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -24,68 +24,71 @@
 
 
   <!-- CSS: implied media="all" -->
-  <?php include('inc/styles.inc'); ?>    
+  <?php include('inc/styles.inc'); ?>
 
   <!-- Uncomment if you are specifically targeting less enabled mobile browsers
   <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
 
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
   <?php include('inc/scripts_head.inc'); ?>
-
 </head>
 
-<body id="home">
+<body>
 <div id="outer">
   <div id="container">
-  	<?php include('inc/header.inc'); ?>
+    <?php include('inc/header.inc'); ?>
     <section class="grid">
     	<aside role="navigation">
-	    	<?php include('inc/navigations.inc'); ?>
+    		<?php include('inc/navigations.inc'); ?>
     	</aside>
 		<div id="main" role="main">
-			<article class="person">
-				<a href="person.php" title="">
-					<h1>nilshendriks.com</h1>
-					<p>Front End Web Developer based in Singapore.</p>
-				</a>
-			</article>
-			<article class="company">
-				<a href="page.php" title="">
-					<h1>Artminister</h1>
-					<p>is a small design consultancy located in Singapore. It creates gorgeous, engaging and accessible web sites.
-					</p>
-				</a>
-			</article>
-			<article class="company">
-				<a href="page.php" title="">
-					<h1>Edenspiekermann</h1>
-					<p>Edenspiekermann is an agency for strategy, design and communication with offices in Amsterdam, Berlin, Stuttgart. 
-					</p>
-				</a>
-			</article>
-			<article class="company">
-				<a href="page.php" title="">
-					<h1>Qais Consulting</h1>
-					<p>Qais Consulting is a Singapore based interactive agency who produce groundbreaking work and fresh ideas for global brands.
-					</p>
-				</a>
-			</article>
-			<article class="site">
-				<a href="site.php" title="">
-					<h1>gothere.sg</h1>
-					<p>gothere.sg delivers a very usable way to find your way in Singapore.
-					</p>
-				</a>
-			</article>
+			<h1>gothere.sg</h1>
+			<img src="http://www.csssingapore.com/images/sized/images/uploads/gothere-500x308.png" alt="screenshot of gothere.sg" />
+			<h2>Data</h2>
+			<table summary="This table shows data about this site">
+				<caption>table caption</caption>
+				<tbody>
+					<tr>
+						<th>Website</th>
+						<td><a class="external" href="http://gothere.sg" title="">gothere.sg</a></td>
+					</tr>
+					<tr>
+						<th>Founders</th>
+						<td>Dominic Ee, Toh Kian Khai, Kuan Chih Yuan and Ang Jun Han.</td>
+					</tr>
+					<tr>
+						<th>Creatives? Design?</th>
+						<td>
+							<ul>
+								<li><a href="#" title="">Jussi Edlund</a> – Designer</li>
+								<li>? – Designer - Redesign/align</li>
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<h2>Background</h2>
+			<p>Gothere.sg started in 2008 out of dissatisfaction with existing online wayfinding solutions for Singapore.</p>
+			
+<!--			<p>Filed under  // company Amsterdam Berlin<br />
+			Posted by Nils Hendriks </p>-->
 		</div>
 		<aside role="complementary">
-			<p>A Different Index tries to collect data about companies and people who build websites. Focused on Singapore and The Netherlands for now.</p>
-			<a href="#" title="">About ADI</a>
-			<h2>Contributors</h2>
-			<ul>
-				<li><a href="#" title="">Vinay M</a></li>
-				<li><a href="person.html" title="">Nils Hendriks</a></li>
-			</ul>
+			<div id="hcard-gothere" class="vcard">
+			 <div class="org">gothere.sg</div>
+<!--			 <a class="email" href="mailto:info@edenspiekermann.com">edenspiekermann</a>-->
+			 <div class="adr">
+			  <div class="street-address">7 Prince George's Park</div>
+			  <span class="locality">Singapore</span>
+			, 
+			  <span class="postal-code">118406</span>
+			  <span class="country-name">Singapore</span>			
+			 </div>
+<!--			 <div class="tel">+31 20 550 6300</div>
+			 <div class="fax">+31 20 550 6399</div>
+-->
+			<div class="tags"><a href="http://kitchen.technorati.com/contacts/tag/company">company</a> </div>
+			</div>
 		</aside>
     </section>
     <?php include('inc/footer.inc'); ?>

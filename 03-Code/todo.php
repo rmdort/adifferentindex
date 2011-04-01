@@ -134,6 +134,9 @@ ul {
 				<li>New colour scheme?</li>
 				<li>Use of microformats</li>
 				<li>Possible event listing</li>
+				<li>Integrate hireme.sg ?</li>
+				<li>Integrate gothere.sg map and directions for company office(s)?</li>
+				<li>Integrate google maps and directions for non singapore companies?</li>
 			</ul>
 			<h2>Tests</h2>
 			<ul>
