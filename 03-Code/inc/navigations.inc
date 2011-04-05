@@ -12,13 +12,6 @@
 		<li>Grid <span> </span>
 		<div id="slider"></div> 
 		</li>
-		<li>Homepage Columns:
-			<ul class="options-columns">
-				<li><a href="#1" title="">1</a></li>
-				<li><a href="#2" title="">2</a></li>
-				<li><a href="#3" title="">3</a></li>
-			</ul>
-		</li>
 		<li><a href="todo.php">To do</a></li>
 	</ul>
 </nav>

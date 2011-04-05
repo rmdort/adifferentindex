@@ -77,6 +77,12 @@
 					</p>
 				</a>
 			</article>
+			<article class="person">
+				<a href="jussi.php" title="">
+					<h1>Jussi Edlund</h1>
+					<p>Art Director / Graphic Designer</p>
+				</a>
+			</article>
 		</div>
 		<aside role="complementary">
 			<p>A Different Index tries to collect data about companies and people who build websites. Focused on Singapore and The Netherlands for now.</p>

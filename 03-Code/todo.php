@@ -129,11 +129,12 @@ ul {
 					</ul>
 				</li>
 			</ul>
-			<h2>Design</h2>
+			<h2>Design / features</h2>
 			<ul>
 				<li>New colour scheme?</li>
 				<li>Use of microformats</li>
 				<li>Possible event listing</li>
+				<li>Add stuff like websg / fronteers / hackerspace?</li>
 				<li>Integrate hireme.sg ?</li>
 				<li>Integrate gothere.sg map and directions for company office(s)?</li>
 				<li>Integrate google maps and directions for non singapore companies?</li>

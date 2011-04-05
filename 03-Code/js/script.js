@@ -5,15 +5,69 @@
 /* ::Enable Javascript-enabled stylesheet */
 var head_css = $('<link rel="stylesheet" href="css/js-enabled.css" type="text/css" media="screen" />').appendTo($('head')[0]);
 
+
+/* ::Document Ready function Callers  */
+$(document).ready(function(){
+	
+	FnColumnOptions.init();
+	
+});
+
+/* ::Default Functions */
+FnDefault = {
+	init:function() {
+	
+	} // end init	
+	
+} // end function
+
+/* :: Function to add column options */
+FnColumnOptions = {
+	init:function() {
+	
+		// only if homepage
+			var elemExists = $('#home').length;
+			if (elemExists > 0) {
+				$('<div class="column-options"></div>')
+					.insertBefore('.grid');
+				$('<ul></ul>')
+					.appendTo('.column-options');
+				$('<li><a href="#1" title="show as 1 column content column and an aside column">1</a></li><li><a href="#2" title="show as 2 column content column with aside column">2</a></li><li><a href="#3" title="show as 3 column content column with no aside column">3</a></li>')
+					.appendTo('.column-options ul');	
+
+
+			} // end if
+		
+	} // end init	
+	
+} // end function
+	
+
+
 window.onload = load;
 
 function load()
 {
 // alert("load event detected!");
+ FnSearchFocus.init();
  FnImageFix.init();
  FnGridSlider.init();
- FnSubGrid.init()
+ FnSubGrid.init();
 }
+
+/* ::Default Functions */
+FnSearchFocus = {
+	init:function() {
+		$('#frm_search input[type="submit"]').hide();
+		$('#frm_search input[type="search"]').focus(function() {
+			$('#frm_search input[type="submit"]').show();
+		
+		}).blur(function(){
+			$('#frm_search input[type="submit"]').hide();
+		});	
+	} // end init	
+	
+} // end function
 
 /* ::Grid Functions */
 FnGridSlider = {
@@ -109,7 +163,7 @@ FnSubGrid = {
 			if (elemExists > 0) {
 				
 				// click event for column number
-				$('.options-columns a').click(function(){
+				$('.column-options a').click(function(){
 					//set classes
 									
 					// get href

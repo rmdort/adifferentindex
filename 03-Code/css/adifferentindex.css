@@ -165,9 +165,9 @@ a:hover { color: darken(@brandcolor, 10%); }
  	label {
  		visibility: hidden;
  	}
- 	input[type="submit"] {
+/* 	input[type="submit"] {
  		visibility: hidden;
- 	}
+ 	}*/
  }
  .grid {
  	overflow: hidden;
@@ -286,6 +286,38 @@ a:hover { color: darken(@brandcolor, 10%); }
  	}
  	&.site {
  		background: transparent url(../img/link_icon.jpg) 100% 100% no-repeat;
+ 	}
+ }
+ 
+ #main .profiles-list {
+ 	margin: 0;
+ 	list-style: none;
+ 	li { background: transparent; padding-left: 24px; 
+ 	&.person {
+ 		background: transparent url(../img/me16.png) 0 4px no-repeat;
+ 		margin-bottom: 24px; 
+ 		/*border-bottom: 1px solid #ccc;*/
+ 		padding-bottom: 22px;
+ 	}
+ 	&.company {
+ 		background: transparent url(../img/company16.png) 0 4px no-repeat;
+ 		margin-bottom: 24px; 
+ 		/*border-bottom: 1px solid #ccc;*/
+ 		padding-bottom: 22px; 		
+ 	}
+ 	&.site {
+ 		background: transparent url(../img/link_icon.jpg) 0 4px no-repeat;
+ 		margin-bottom: 24px; 
+ 		/*border-bottom: 1px solid #ccc;*/
+ 		padding-bottom: 22px; 		
+ 	}
+ 	}
+ 	ul {
+ 		margin: 0;
+ 		border-top: 10px solid #f8f8f8;
+ 	}
+ 	li li {
+ 		padding-left: 0;
  	}
  }
  
